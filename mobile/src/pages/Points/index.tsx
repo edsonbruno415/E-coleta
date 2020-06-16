@@ -104,8 +104,8 @@ const Points = () => {
          { initialPosition[0] !== 0 && ( 
          <MapView style={styles.map}
             initialRegion={{
-              latitude: -23.6027904,
-              longitude: -46.6321408,
+              latitude: initialPosition[0],
+              longitude: initialPosition[1],
               latitudeDelta: 0.014,
               longitudeDelta: 0.014
             }}
